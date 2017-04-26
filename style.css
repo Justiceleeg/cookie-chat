@@ -7,6 +7,7 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 .main-container {
@@ -30,4 +31,22 @@ p{
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+}
+
+.time {
+  background-color:#42A3DD;
+  color: white;
+  border-radius: 16px;
+  font-weight: bold;
+  padding: auto;
+  width: 150px;
+  height: 50px
+  text-align: center;
+  font-size: .8em;
+}
+
+.messagecont {
+  max-width: 750px;
+  display: flex;
+  justify-content: space-between;
 }
